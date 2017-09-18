@@ -57,7 +57,7 @@ public class UserController {
 	@JsonView(User.UserDetailView.class)
 	public User getInfo(@PathVariable String id){
 		User user =new User();
-		user.setUsername("yb2");
+		user.setUsername("yb");
 		return user;
 		
 	}
