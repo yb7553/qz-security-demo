@@ -6,17 +6,24 @@ spring:
     password: 
   session: 
     store-type: none 
-  application:
-    name: qz_api
-  jpa: 
-    hibernate: 
-      ddl-auto: none
-    show-sql: true
+#  application:
+#    name: qz_api
+#  jpa: 
+#    hibernate: 
+#      ddl-auto: none
+#    show-sql: true
 server:
   port: 8082
-security: 
-  basic: 
-    enabled: true 
+#security: 
+#  basic: 
+#    enabled: false 
+
+qz: 
+  security: 
+    browser:  
+      loginPage: /demo-signIn.html
+      loginType: JSON
+     
   
   
   

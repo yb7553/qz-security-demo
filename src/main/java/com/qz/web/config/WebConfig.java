@@ -22,7 +22,7 @@ import com.qz.web.interceptor.TimeInterceptor;
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter {
 	
-	@SuppressWarnings("unused")
+
 	@Autowired
 	private TimeInterceptor timeInterceptor;
 	
